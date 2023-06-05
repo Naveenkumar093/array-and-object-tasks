@@ -1,0 +1,35 @@
+
+2.Ans:
+.CREATE A OWN RESUME DATA IN JSON FORMAT
+var bio={  "name": "NAVEEN KUMAR",
+  "email": "rajanaveen86@gmail.com",
+  "phone": "+91 8248659614",
+  "education": [
+    {
+      "degree": "Bachelor of MECHANICAL ENGINNER",
+      "institution": "GKM COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "location": "CHENNAI",
+      "graduation_date": "2018"
+    },
+  ],
+  "experience": [
+    {
+      "title": "QUALITY INSPECTOR",
+      "company": "PREMIER STEEL COMPONENTS PVT,LTD",
+    },
+    {
+      "title": "WORK  ADMIN FOR WAREHOUSE",
+      "company": "MARINO FOOD PRODUCTS PVT LTD .",
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": ["JavaScript", "HTML", "CSS", "Python"]
+    },
+    
+  ]
+};
+console.log(bio);
+
+
